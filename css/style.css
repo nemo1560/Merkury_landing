@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white; }
+
+.header {
+  background-image: url(../images/bg_1.1.png);
+  background-size: cover;
+  height: 800px; }
+  .header .nav {
+    padding-top: 20px; }
+    .header .nav a:hover {
+      background-color: transparent; }
+    .header .nav button {
+      background-color: transparent;
+      margin-top: 10px;
+      border: 1px solid #5684FE; }
+  .header .intro {
+    padding: 100px 0px 100px 0px; }
+    .header .intro button {
+      margin-top: 50px;
+      background-color: #5684FE;
+      padding: 5px 20px 5px 20px;
+      border-radius: 15px; }
+    .header .intro .img {
+      position: relative;
+      top: 50px; }
+
+.need {
+  padding: 300px 0 200px 0;
+  color: black;
+  background-image: url(../images/icon_4.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-x: 700px;
+  background-position-y: 600px; }
+  .need .text-center {
+    padding: 0 40px 0 40px;
+    margin-bottom: 100px; }
+    .need .text-center img {
+      margin: 0 auto; }
+    .need .text-center button {
+      width: 40%;
+      border-radius: 30px;
+      margin-top: 20px;
+      font-weight: bold; }
+  .need .browser {
+    margin-top: 50px; }
+    .need .browser p {
+      margin: 40px 0 40px 0; }
+    .need .browser h5 {
+      font-weight: bold;
+      color: #5684FE; }
+      .need .browser h5 .fa-check-circle {
+        color: #5684FE;
+        margin-right: 10px; }
+
+.drap {
+  padding: 100px 0 100px 0;
+  background-image: url(../images/bg_2.2.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .drap .drap_content {
+    line-height: 30px;
+    padding: 50px 120px 50px 100px; }
+
+.powerful {
+  color: black; }
+  .powerful .content {
+    padding: 50px 0 50px 0; }
+  .powerful .img_power {
+    padding: 100px 0 100px 0;
+    position: relative; }
+    .powerful .img_power #icon_6 {
+      width: 80%; }
+    .powerful .img_power #icon_10 {
+      position: absolute;
+      top: 390px;
+      right: 0px;
+      z-index: 2;
+      width: 50%; }
+    .powerful .img_power #icon_11 {
+      position: absolute;
+      top: 135px;
+      left: 0px;
+      z-index: 2;
+      width: 50%; }
+  .powerful .pricing p {
+    padding: 60px 40px 40px 40px; }
+  .powerful .pricing button {
+    background-color: #5684FE;
+    padding: 5px 25px 5px 25px;
+    border-radius: 15px;
+    margin-bottom: 40px; }
+
+.footer {
+  background-color: #0E1935;
+  color: #5684FE;
+  padding: 20px 0 20px 0; }
+  .footer .fa-copyright, .footer .fa-facebook-f, .footer .fa-twitter, .footer .fa-google {
+    margin-right: 10px; }
+  .footer .footer_left {
+    line-height: 50px; }
+  .footer .footer_right {
+    line-height: 50px; }
+    .footer .footer_right .navbar-left {
+      margin-left: 270px; }
+      .footer .footer_right .navbar-left a:hover {
+        background-color: transparent; }
+
+@media screen and (max-width: 1190px) {
+  .header {
+    background-image: url(../images/bg_1.1.png);
+    background-size: cover;
+    height: auto; }
+    .header .nav {
+      padding-top: 5px; }
+      .header .nav a:hover {
+        background-color: transparent; }
+      .header .nav button {
+        background-color: transparent;
+        margin-top: 5px;
+        border: 1px solid #5684FE; }
+    .header .intro {
+      padding: 20px 0px 20px 0px; }
+      .header .intro button {
+        margin-top: 10px;
+        background-color: #5684FE;
+        padding: 5px 20px 5px 20px;
+        border-radius: 15px; }
+      .header .intro .img {
+        position: relative;
+        top: 50px; }
+  .powerful .img_power #icon_10 {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    z-index: 2;
+    width: 50%; }
+  .powerful .img_power #icon_11 {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    z-index: 2;
+    width: 50%; }
+  .powerful .pricing p {
+    padding: 5px 5px 5px 5px; }
+  .powerful .pricing button {
+    background-color: #5684FE;
+    padding: 5px 25px 5px 25px;
+    border-radius: 15px;
+    margin-bottom: 20px; }
+  .need {
+    padding: 30px 0 20px 0; }
+    .need .text-center {
+      padding: 0 20px 0 20px;
+      margin-bottom: 20px; }
+  .drap {
+    padding: 10px 0 10px 0; }
+    .drap .drap_content {
+      line-height: 10px;
+      padding: 20px 50px 50px 40px; }
+  .footer {
+    padding: 20px 0 20px 0; }
+    .footer .fa-copyright, .footer .fa-facebook-f, .footer .fa-twitter, .footer .fa-google {
+      margin-right: 10px; }
+    .footer .footer_left {
+      line-height: 20px; }
+    .footer .footer_right {
+      line-height: 20px; }
+      .footer .footer_right .navbar-left {
+        margin-left: 0px; } }
